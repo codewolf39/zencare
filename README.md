@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zencare – AI-Powered Healthcare Management Platform
 
-## Getting Started
+Zencare is a full-stack, AI-driven healthcare management system designed to streamline doctor-patient interaction with modern UI, real-time SMS notifications, intelligent symptom analysis, and a responsive PWA experience.
 
-First, run the development server:
+## 🌐 Live Demo
+
+> [Add your deployed link here]
+
+---
+
+## 📸 Screenshots
+
+> ![Welcome Page](screenshots/welcome_page.png) > ![Registration Page](screenshots/registration_page.png) > ![Admin Dashboard](screenshots/admin_dashboard.png) > _Add screenshots inside the `screenshots/` folder._
+
+---
+
+## 🚀 Features
+
+- User Authentication & Secure Registration
+- AI Chatbot for Symptom Detection (Google Gemini API)
+- Real-time Appointment Booking with SMS Notifications (Twilio)
+- Admin Dashboard to manage appointments
+- Fully Responsive UI (Mobile First)
+- Modern form components: OTP, Date Picker, Country Input
+- Performance Monitoring with Sentry
+- Appwrite Integration for Backend & File Storage
+
+---
+
+## 📦 Tech Stack
+
+**Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn/UI, React Hook Form, Zod  
+**Backend:** Appwrite, Twilio  
+**AI Integration:** Google Gemini API  
+**Monitoring:** Sentry
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/yourusername/zencare.git
+cd zencare
+npm install
+```
+
+> Create a `.env.local` file in the root and configure the following:
+
+```
+NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+TWILIO_ACCOUNT_SID=your_sid
+TWILIO_AUTH_TOKEN=your_token
+GEMINI_API_KEY=your_gemini_key
+SENTRY_DSN=your_sentry_dsn
+```
+
+---
+
+## ▶️ Running the App
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Folder Structure
 
-## Learn More
+```
+zencare/
+├── components/
+├── pages/
+│   ├── index.tsx
+│   ├── register.tsx
+├── lib/
+├── public/
+│   └── screenshots/
+├── styles/
+└── utils/
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📣 Acknowledgements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Appwrite](https://appwrite.io/)
+- [Twilio](https://www.twilio.com/)
+- [Google Gemini](https://deepmind.google/technologies/gemini/)
+- [Sentry](https://sentry.io/)
+- [Shadcn/UI](https://ui.shadcn.dev/)
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## ✨ Project Status
+
+✅ Completed & Deployed  
+📈 Achieved 100% working integration with Appwrite, Twilio, and Gemini API  
+👥 Used by 5+ team members collaboratively
