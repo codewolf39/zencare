@@ -2,15 +2,9 @@
 
 Zencare is a full-stack, AI-driven healthcare management system designed to streamline doctor-patient interaction with modern UI, real-time SMS notifications, intelligent symptom analysis, and a responsive PWA experience.
 
-## 🌐 Live Demo
-
-> [Add your deployed link here]
-
----
-
 ## 📸 Screenshots
 
-> ![Welcome Page](screenshots/welcome_page.png) > ![Registration Page](screenshots/registration_page.png) > ![Admin Dashboard](screenshots/admin_dashboard.png) > _Add screenshots inside the `screenshots/` folder._
+> ![Welcome Page](screenshots/welcome_page.png) > ![Registration Page](screenshots/registration_page.png) > ![Admin Dashboard](screenshots/admin_dashboard.png)
 
 ---
 
@@ -100,14 +94,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
-
-[MIT](LICENSE)
-
----
-
 ## ✨ Project Status
 
 ✅ Completed & Deployed  
-📈 Achieved 100% working integration with Appwrite, Twilio, and Gemini API  
-👥 Used by 5+ team members collaboratively
+📈 Achieved 100% working integration with Appwrite, Twilio, and Gemini API
